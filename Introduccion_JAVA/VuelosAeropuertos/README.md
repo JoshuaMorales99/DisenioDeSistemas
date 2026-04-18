@@ -29,4 +29,4 @@ El sistema debe informar:
 10. La aerolínea con mayor cantidad de pasajeros en un mes determinado.
 
 ## 📌 Diagrama de Clases
-![Diagrama de Clases](DDC.png)
+![Diagrama de Clases](DDC.PNG)
