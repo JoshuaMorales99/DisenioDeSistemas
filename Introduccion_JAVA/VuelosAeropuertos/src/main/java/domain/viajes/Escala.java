@@ -5,11 +5,10 @@ import domain.lugares.Aeropuerto;
 public class Escala {
     // 📌 ATRIBUTOS
     private Aeropuerto aeropuerto;
-    private Double duracion;
+    private Double duracion;                // En minutos
 
     // 📌 GETTERS & SETTERS
     public Double getDuracion() {
-        // TODO
-        return 0.0;
+        return duracion;
     }
 }
