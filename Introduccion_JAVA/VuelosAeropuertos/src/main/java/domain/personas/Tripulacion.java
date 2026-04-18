@@ -1,5 +1,7 @@
 package domain.personas;
 
+import domain.viajes.Vuelo;
+
 import java.time.LocalDate;
 import java.util.List;
 
