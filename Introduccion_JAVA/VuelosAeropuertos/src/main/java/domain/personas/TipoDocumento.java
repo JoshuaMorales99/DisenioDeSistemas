@@ -1,0 +1,8 @@
+package domain.personas;
+
+public enum TipoDocumento {
+    DNI,
+    LIBRETA_CIVICA,
+    LIBRETA_ENROLAMIENTO,
+    CEDULA
+}
