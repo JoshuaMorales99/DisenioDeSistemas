@@ -1,5 +1,6 @@
 package domain.personas;
 
+import domain.lugares.Ciudad;
 import domain.lugares.Pais;
 import domain.viajes.Vuelo;
 
@@ -11,12 +12,14 @@ public class Pasajero extends Persona {
     private Integer nroPasaporte;
     private Pais pais;
 
+
     // 📌 METODOS
     public Integer cantVuelosTotales() {
         // TODO
         return 0;
     }
 
+    
     public Integer cantVecesQueVisitaste(Ciudad unaCiudad) {
         // TODO
         return 0;
