@@ -2,10 +2,10 @@ package domain.personas;
 
 public abstract class Persona {
     // 📌 ATRIBUTOS
-    protected String nombre;
-    protected String apellido;
-    protected TipoDocumento tipoDocumento;
-    protected Integer nroDeDocumento;
+    private String nombre;
+    private String apellido;
+    private TipoDocumento tipoDocumento;
+    private Integer nroDeDocumento;
 
 
     // 📌 GETTERS & SETTERS
