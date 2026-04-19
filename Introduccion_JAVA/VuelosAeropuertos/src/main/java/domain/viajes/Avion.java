@@ -13,7 +13,6 @@ public class Avion {
 
     // 📌 GETTERS & SETTERS
     public Integer getCantAsientos() {
-        // TODO
-        return 0;
+        return cantAsientos;
     }
 }

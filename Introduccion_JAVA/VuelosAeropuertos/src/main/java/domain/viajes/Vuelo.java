@@ -61,13 +61,16 @@ public class Vuelo {
         return 0.0;
     }
 
+    /*
+    * Regla de tres:
+    *       CantAsientos    _   100 %
+    *       CantPasajeros   _   x   %
+    */
     public Double capacidadOcupadaPorPasajeros(){
-        // TODO
-        return 0.0;
+        return (this.cantPasajeros() * 100.0) / avion.getCantAsientos();
     }
 
     public Integer cantPasajeros(){
-        // TODO
-        return 0;
+        return this.pasajeros.size();
     }
 }
